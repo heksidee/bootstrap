@@ -4,65 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tieto- ja viestintätekniikan perustutkinto</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <span>Tieto- ja viestintätekniikan perustutkinto</span>
-        </div>
-        <nav>
-            <a href="index.html">Etusivu</a>
-            <a href="Tutkinnon_rakenne.html">Tutkinnon rakenne</a>
-            <a href="Tutkinnonosat.html">Tutkinnonosat</a>
-            <a href="Kriteerit.html">Kriteerit</a>
-            <a href="Arviointi.html">Arviointi</a>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1>Arviointikriteerit</h1>
-            <ul>Tyydyttävä 1</ul>
-            <p>Opiskelija...</p>
-                <li>toteuttaa työn ohjeiden mukaisesti</li>
-                <li>tarvitsee joissakin tilanteissa lisäohjeita</li>
-                <li>hyödyntää työssä tarvittavaa perustietoa</li>
-                <li>muuttaa toimintaansa saamansa palautteen mukaisesti</li>
-            <ul>Tyydyttävä 2</ul>
-            <p>Opiskelija...</p>
-                <li>toteuttaa työn oma-aloitteisesti ja ohjeiden mukaisesti</li>
-                <li>toimii yhteistyökykyisesti ja vuorovaikutteisesti</li>
-                <li>tarvitsee vain harvoissa tilanteissa lisäohjeita</li>
-                <li>hyödyntää työssä tarvittavaa tietoa tarkoituksenmukaisesti</li>
-                <li>muuttaa toimintaansa saamansa palautteen ja omien havaintojen mukaisesti</li>
-            <ul>Hyvä 3</ul>
-            <p>Opiskelija...</p>
-                <li>toteuttaa työkokonaisuuden itsenäisesti</li>
-                <li>toimii yhteistyökykyisesti ja aloitteellisesti vuorovaikutustilanteissa</li>
-                <li>selviytyy tavanomaisista ongelmanratkaisutilanteista</li>
-                <li>hyödyntää työssä tarvittavaa tietoa monipuolisesti</li>
-                <li>arvioi suoriutumistaan realistisesti</li>
-            <ul>Hyvä 4</ul>
-            <p>Opiskelija...</p>
-                <li>suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti</li>
-                <li>toimii yhteistyökykyisesti ja rakentavasti vuorovaikutustilanteissa</li>
-                <li>selviytyy ongelmanratkaisutilanteista hyödyntäen monipuolisia ratkaisutapoja</li>
-                <li>soveltaa työssä tarvittavaa tietoa monipuolisesti ja perustellusti</li>
-                <li>arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan</li>
-            <ul>Kiitettävä 5</ul>
-            <p>Opiskelija...</p>
-                <li>suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti ottaen huomioon muut toimijat</li>
-                <li>toimii yhteistyökykyisesti ja rakentavasti haastavissakin vuorovaikutustilanteissa</li>
-                <li>arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan</li>
-                <li>soveltaa työssä tarvittavaa tietoa ongelmanratkaisutilanteissa monipuolisesti ja kriittisesti</li>
-                <li>arvioi suoriutumistaan realistisesti ja esittää perusteltuja ratkaisuja osaamisensa kehittämiseen</li>
-                <li>ymmärtää oman työnsä merkityksen osana laajempaa kokonaisuutta</li>
-        </section>
-    </main>
-        <footer>
-            <div class="logo">
-                Copyright &copy; 2025 <span>Tieto- ja viestintätekniikan perustutkinto</span>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container py-2">
+                <span class="navbar-brand">
+                    <img src="img/perustehtävät.jpg" alt="Tietokoneen kuva" height="40">
+                </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Mynavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="Mynavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Etusivu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Tutkinnon_rakenne.html" class="nav-link">Tutkinnon rakenne</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Tutkinnonosat.html" class="nav-link">Tutkinnonosat</a>
+                        </li>
+                            <li class="nav-item"></li>
+                            <a href="Kriteerit.html" class="nav-link">Kriteerit</a>
+                        </li>
+                        <li class="nav-item"></li>
+                            <a href="Arviointi.html" class="nav-link">Arviointi</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </footer>
+        </nav>
+<div class="container">
+        
+        <main>
+            <section>
+                <h1>Arviointikriteerit</h1>
+                <ul>Tyydyttävä 1</ul>
+                <p>Opiskelija...</p>
+                    <li>toteuttaa työn ohjeiden mukaisesti</li>
+                    <li>tarvitsee joissakin tilanteissa lisäohjeita</li>
+                    <li>hyödyntää työssä tarvittavaa perustietoa</li>
+                    <li>muuttaa toimintaansa saamansa palautteen mukaisesti</li>
+                <ul>Tyydyttävä 2</ul>
+                <p>Opiskelija...</p>
+                    <li>toteuttaa työn oma-aloitteisesti ja ohjeiden mukaisesti</li>
+                    <li>toimii yhteistyökykyisesti ja vuorovaikutteisesti</li>
+                    <li>tarvitsee vain harvoissa tilanteissa lisäohjeita</li>
+                    <li>hyödyntää työssä tarvittavaa tietoa tarkoituksenmukaisesti</li>
+                    <li>muuttaa toimintaansa saamansa palautteen ja omien havaintojen mukaisesti</li>
+                <ul>Hyvä 3</ul>
+                <p>Opiskelija...</p>
+                    <li>toteuttaa työkokonaisuuden itsenäisesti</li>
+                    <li>toimii yhteistyökykyisesti ja aloitteellisesti vuorovaikutustilanteissa</li>
+                    <li>selviytyy tavanomaisista ongelmanratkaisutilanteista</li>
+                    <li>hyödyntää työssä tarvittavaa tietoa monipuolisesti</li>
+                    <li>arvioi suoriutumistaan realistisesti</li>
+                <ul>Hyvä 4</ul>
+                <p>Opiskelija...</p>
+                    <li>suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti</li>
+                    <li>toimii yhteistyökykyisesti ja rakentavasti vuorovaikutustilanteissa</li>
+                    <li>selviytyy ongelmanratkaisutilanteista hyödyntäen monipuolisia ratkaisutapoja</li>
+                    <li>soveltaa työssä tarvittavaa tietoa monipuolisesti ja perustellusti</li>
+                    <li>arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan</li>
+                <ul>Kiitettävä 5</ul>
+                <p>Opiskelija...</p>
+                    <li>suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti ottaen huomioon muut toimijat</li>
+                    <li>toimii yhteistyökykyisesti ja rakentavasti haastavissakin vuorovaikutustilanteissa</li>
+                    <li>arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan</li>
+                    <li>soveltaa työssä tarvittavaa tietoa ongelmanratkaisutilanteissa monipuolisesti ja kriittisesti</li>
+                    <li>arvioi suoriutumistaan realistisesti ja esittää perusteltuja ratkaisuja osaamisensa kehittämiseen</li>
+                    <li>ymmärtää oman työnsä merkityksen osana laajempaa kokonaisuutta</li>
+            </section>
+        </main>
+            <footer>
+                <div class="logo">
+                    Copyright &copy; 2025 <span>Tieto- ja viestintätekniikan perustutkinto</span>
+                </div>
+            </footer>
+</div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
